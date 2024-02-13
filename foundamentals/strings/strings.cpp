@@ -12,5 +12,8 @@ int main(void)
   std::cout << "The length of the string is " << str.length() << std::endl
             << std::endl;
 
+  // You can access the characters of a string using the [] operator
+  std::cout << "The first character of the string is " << str[0] << std::endl;
+
   return 0;
 }
